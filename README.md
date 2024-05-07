@@ -2,6 +2,14 @@
 
 Este estudo tem como base a abordagem de aprendizado de máquina para redes neurais convolucionais (RNC), mais especificamente da Rede Neural U-Net. Uma rede neural convolucional é capaz de aplicar filtros em dados visuais, mantendo a relação de vizinhança entre os pixels da imagem ao longo do processamento da rede. Desta maneira as RNCs, incluída a U-Net, utiliza de técnicas de aprendizado profundo para, a partir da uma imagem de entrada, identificar e diferenciar os dados para construir um produto definida pelo código. No caso do presente trabalho a entrada é uma imagem normal de um pé de café e o produto é uma máscara que diz os locais onde possuem frutos de café. 
 
+Imagem de Café
+
+![image](https://github.com/RFHamster/Rede-Neural-para-Segmentar-Frutos-de-Caf-/assets/71076681/aa267060-45df-45f1-9224-130aeddd020e)
+
+Máscara
+
+![image](https://github.com/RFHamster/Rede-Neural-para-Segmentar-Frutos-de-Caf-/assets/71076681/6265a3a5-b17a-484d-844c-fb3218835a18)
+
 Os modelos de RNC de aprendizado profundo são usados para treinar algoritmos com diversas imagens com saídas conhecidas e testá-los posteriormente com imagens com produtos desconhecidos. Seguindo a ótica deste estudo, a rede será treinada com entradas figuras de café e uma máscara pronta, previamente definida. Assim, seu produto será uma rede capaz de desenvolver automaticamente uma máscara para uma imagem nova. 
 
 O modelo foi desenvolvido com uma amostra de doze imagens de cafés coletados de uma base construída por cinco especialistas de café e agronomia da Universidade Federal de Uberlândia (UFU). Estas imagens foram obtidas de frutos de café de diferentes regiões do Brasil de forma colaborativa com produtores, pesquisadores e estudantes. Manteve-se um padrão para captura de imagens onde o usuário define a posição do dossel (local onde é localizado os frutos do café), abre a copa da planta na posição e aproxima o celular na posição vertical ou horizontal. 
